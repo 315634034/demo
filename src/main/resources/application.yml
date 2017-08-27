@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: demo
+#  datasource:
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://10.255.1.131:3306/debt_auto_ceil?useUnicode=true&characterEncoding=utf-8
+#    username: root
+#    password: 123456
+#    test-while-idle: true
+#    time-between-eviction-runs-millis: 30000
+#    min-evictable-idle-time-millis: 60000
+#    max-active: 5
+#    initial-size: 2
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  jpa:
+    hibernate.ddl-auto: none
+    show-sql: true
+
